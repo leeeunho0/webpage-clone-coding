@@ -118,6 +118,43 @@ function App() {
 
       {/* footer */}
       <footer>
+        <img src="kotsumet-official-store.com/cdn/shop/files/300-min1025_7b123e1c-2a24-4250-9928-993c0d6d5fb1_160x.png" alt="KOTSUMET" />
+        <div className="foot">
+          <div className="foot-1">
+            <p>MENU</p><hr />
+            <ul>
+              <li>MERCH</li>
+              <li>NEWS</li>
+              <li>ABOUT</li>
+              <li>SOCIAL</li>
+              <li>INFO</li>
+              <li>DIGITAL DOWNLOADS</li>
+            </ul>
+          </div>
+          <div className="foot-2">
+            <p>NEWSLETTER</p><hr />
+            <h3>Sign up to get updates about upcoming products and the latest news.</h3>
+            <div>
+              <input type="text" placeholder='your-email@example.com' /><button>JOIN</button>
+            </div>
+          </div>
+        </div>
+        <select name="lauguage" id="lauguage">
+          <option value="country">ENGLISH</option>
+          <option value="country">日本語</option>
+        </select>
+        <select name="pay" id="pay">
+          <option value="USD">USD$</option>
+          <option value="JPY">JPY円</option>
+        </select>
+        <ul>
+          <li>© KOTSUMET OFFICIALSTORE 2026</li>
+          <li>PRIVACY POLICY</li>
+          <li>ACT OF SPECIFIED COMMERCIAL TRANSACTIONS</li>
+          <li>TERMS OF SERVICE</li>
+          <li>REFUND POLICY</li>
+        </ul>
+        <p>CANCEL CONTRACT</p>
 
       </footer>
     </div>
